@@ -1,0 +1,17 @@
+package com.jr.www.service;
+
+import java.util.List;
+
+import com.jr.www.model.User;
+
+public interface UserService {
+	
+	public static final int ENTITIES_PER_PAGE = 10;
+	
+    void addUser(User user);
+    void updateUser(User user);
+    void removeUser(User user);
+    public List<User> listUsers(int pageNumber, int perPage, String criteria);
+    public User getById(int id);
+    public int getNumberOfPages();
+}

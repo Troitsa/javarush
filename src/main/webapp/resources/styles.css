@@ -1,0 +1,79 @@
+@import url(reset.css);
+
+h1 {
+font: bold 20px serif;
+color: #222222;
+margin: 20px 0 20px 40px;
+}
+
+h2 {
+font: bold 15px serif;
+color: #060059;
+margin: 20px 0 20px 40px;
+}
+table {
+	border: 2px double #545454;
+	border-collapse: collapse;
+	background: #efefef;
+	color: black;
+	border-spacing: 1px;
+}
+
+td, th {
+	border: 1px solid black;
+	border-collapse: collapse;
+	padding: 5px;
+}
+
+th {
+	background: #C0C0C0;
+}
+
+#tableUsers {
+	margin: 20px 0 5px 20px;
+}
+
+#pageNumbers {
+	margin-left: 20px;
+}
+#addForm, #searchForm {
+background: #efefef;
+padding: 5px;
+margin: 20px 0 20px 20px;
+width: 250px;
+border: 1px solid;
+}
+.inputField{
+margin-bottom: 5px;
+padding: 2px;
+float: right;
+}
+.labelsInput {
+margin: 5px;
+}
+.button {
+float: right;
+width: 90px;
+text-align: center;
+}
+
+.prevNextButton {
+    width: 70px;
+    text-align: center;
+}
+
+.error {
+    padding-left: 10px;
+    font: 12px serif;
+    color: red;
+}
+
+#newUserButton {
+    background: #C0C0C0;
+    padding: 10px;
+    text-decoration: none;
+    color: #000000;
+    border: solid 1px #545454;
+    margin-left: 20px;
+}
+
